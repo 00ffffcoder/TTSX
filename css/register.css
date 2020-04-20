@@ -1,0 +1,179 @@
+body{
+	font-size: 14px;
+	font-family: 'Microsoft Yahei';
+	color: #666;
+
+}
+
+/*  通知注意区  */
+.attention_con{
+	height: 47px;
+	background:rgb(221,221,221);
+}
+.attention_con p{
+	text-align: center;
+	line-height: 47px;
+	color: rgb(55,171,64);
+	font-size: 17px;
+}
+
+
+.register_con{
+	width: 100%;
+	height: 560px;
+	margin-top: 50px;
+	background: url(../img/register_banner.png);
+}
+
+
+.register_center_con{
+	width: 700px;
+    height: 560px;
+    margin: 50px auto 0;
+    /*border:1px solid #e0e0e0;*/
+}
+
+
+.left_con{
+	width: 100px;
+	height: 560px;
+}
+
+/*文字标语*/
+.slogan{
+	width: 40px;
+    height: 300px;
+    font-size: 30px;
+    color: #47aa34;
+    text-align: center;
+    line-height: 36px;
+    margin: 97px 0 0 216px;
+}
+
+
+.right_con{
+	width: 400px;
+	height: 560px;
+	background-color: pink;
+	border:1px solid #e0e0e0;
+}
+
+/*用户注册*/
+.reg_title{
+    height: 64px;
+    width: 360px;
+    margin: 10px auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.reg_title h1{
+	float: left;
+	font-size: 24px;
+    height: 64px;
+    line-height: 64px;
+    color: #a8a8a8;
+    text-indent: 44px;
+}
+
+/*立即登录*/
+.reg_title a{
+	float: left;
+	width: 110px;
+    height: 64px;
+    line-height: 64px;
+	font-size: 18px;
+    color: #5fb42a;
+    text-indent: 6px;
+    background: url(../img/login_icons.png) right 25px no-repeat;
+    margin-left: 100px;
+}
+.reg_title a:hover{
+	color: red;
+}
+
+.form_con{
+    width: 360px;
+    height: 470px;
+    margin: 10px auto;
+}
+.form_con ul .input_li{
+	height: 70px;
+}
+
+.form_con .input_li label{
+	width: 80px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    color: #a8a8a8;
+}
+
+.form_con .input_li input {
+    width: 278px;
+    height: 38px;
+    border: 1px solid #e0e0e0;
+    float: right;
+    outline: none;
+    text-indent: 10px;
+    background-color: #f8f8f8;
+}
+
+.form_con .checkbox{
+	width: 360px;
+	height: 70px;
+}
+
+.form_con .checkbox input {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 12px;
+}
+.form_con .checkbox label{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*注册*/
+.register_submit{
+	width: 360px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #47aa34;
+    color: #fff;
+    font-size: 22px;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+}
+.register_submit:hover{
+	background-color: #4EEE94;
+}
+
+/*网页底部*/
+.footer_bar{
+    height: 70px;
+    margin: 2px auto; 
+    text-align: center;
+    border-top: 2px solid #39a93e;
+}
+
+.footer_info{
+	height: 30px;
+	line-height: 30px;
+	margin-top:20px;
+    margin-left: 423px;
+}
+.footer_info a,.footer_info span{
+	float: left;
+	color: #666;
+}
+.footer_info a:hover{
+	color: red;
+}
+.footer_info span{
+	margin:0 15px;
+}
