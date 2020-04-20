@@ -3,7 +3,7 @@ body{
 	font-size: 14px;
 	font-family: 'Microsoft Yahei';
 	color: #666;
-/*	height: 2000px;*/
+
 }
 
 
@@ -83,7 +83,7 @@ body{
 	width: 620px;
 	height:40px;
 	border: 1px solid #39a93e;
-	background: url(icons.png) 12px -335px no-repeat;
+	background: url(../img/icons.png) 12px -335px no-repeat;
 
 }
 
@@ -112,7 +112,7 @@ body{
 	height: 40px;
 	border: 1px solid #ddd;
 	text-align: center;
-	background: url(icons.png) 12px -298px no-repeat;
+	background: url(../img/icons.png) 12px -298px no-repeat;
 }
 
 .my_shopping a{
@@ -192,7 +192,7 @@ body{
     border-bottom: 1px solid #eee;
     line-height: 44px;
     text-align: center;
-    background: url(icons.png) 173px -417px no-repeat;
+    background: url(../img/icons.png) 173px -257px no-repeat;
 }
 .sub_nav_list li a{
 	display: block;
@@ -205,22 +205,22 @@ body{
 }
 
 .sub_nav_list .fruit{
-	background: url(icons.png) 22px 0px no-repeat;
+	background: url(../img/icons.png) 22px 0px no-repeat;
 }
 .sub_nav_list .seafood{
-	background: url(icons.png) 22px -43px no-repeat;
+	background: url(../img/icons.png) 22px -43px no-repeat;
 }
 .sub_nav_list .meat{
-	background: url(icons.png) 22px -86px no-repeat;
+	background: url(../img/icons.png) 22px -86px no-repeat;
 }
 .sub_nav_list .eggs{
-	background: url(icons.png) 22px -133px no-repeat;
+	background: url(../img/icons.png) 22px -133px no-repeat;
 }
 .sub_nav_list .vegetable{
-	background: url(icons.png) 22px -173px no-repeat;
+	background: url(../img/icons.png) 22px -173px no-repeat;
 }
 .sub_nav_list .ice{
-	background: url(icons.png) 22px -221px no-repeat;
+	background: url(../img/icons.png) 22px -221px no-repeat;
 }
 
 /*第五行中间ppt*/

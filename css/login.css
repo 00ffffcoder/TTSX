@@ -1,0 +1,181 @@
+body{
+	font-size: 14px;
+	font-family: 'Microsoft Yahei';
+	color: #666;
+
+}
+
+/*  通知注意区  */
+.attention_con{
+	height: 47px;
+	background:rgb(221,221,221);
+}
+.attention_con p{
+	text-align: center;
+	line-height: 47px;
+	color: rgb(55,171,64);
+	font-size: 17px;
+}
+
+.center_con{
+	height: 480px;
+	width: 100%;
+	background-color: #518e17;
+	margin-top: 100px;
+}
+
+.center_form_con{
+	width: 960px;
+	height: 480px;
+	margin:0 auto;
+}
+
+/*图片背景*/
+.login_banner{
+	width: 381px;
+	height: 322px;
+	margin-top: 90px;
+}
+
+/*文字标语*/
+.slogan{
+	width: 40px;
+    height: 300px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    margin: 80px 0 0 120px;
+}
+
+/*登录框容器*/
+.login_form{
+	width: 368px;
+    height: 378px;
+    border: 1px solid #c6c6c5;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+/*用户登录*/
+.login_title{
+    height: 64px;
+    width: 308px;
+    margin: 10px auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.login_title h1{
+	float: left;
+	font-size: 24px;
+    height: 64px;
+    line-height: 64px;
+    color: #a8a8a8;
+    text-indent: 44px;
+}
+
+/*立即注册*/
+.login_title a{
+	float: left;
+	width: 110px;
+    height: 64px;
+    line-height: 64px;
+	font-size: 18px;
+    color: #5fb42a;
+    text-indent: 20px;
+    background: url(../img/login_icons.png) left 26px no-repeat;
+    margin-left: 25px;
+}
+.login_title a:hover{
+	color: red;
+}
+
+
+.form_con{
+	width: 308px;
+    height: 250px;
+    margin: 20px auto;
+}
+.form_con .username,.form_con .pwd{
+	width: 306px;
+    height: 36px;
+    border: 1px solid #e0e0e0;
+    text-indent: 10px;
+    margin-bottom: 25px;
+    /*防止input框激活时边框高亮*/
+    outline: none;
+}
+
+.form_con .username{
+	background: url(../img/login_icons.png) 278px -43px no-repeat #f8f8f8;
+}
+
+.form_con .pwd{
+	background: url(../img/login_icons.png) 278px -94px no-repeat #f8f8f8;
+}
+
+
+.rem_name input{
+	float: left;
+	margin-top: 4px;
+}
+
+.rem_name label{
+	float: left;
+	color: #666;
+	text-indent: 10px;
+	cursor: pointer;
+}
+
+/*忘记密码*/
+.rem_name a{
+	float: right;
+	color: #666;
+}
+.rem_name a:hover{
+	color: red;
+}
+
+
+/*登录*/
+.input_login{
+	width: 306px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #47aa34;
+    color: #fff;
+    font-size: 22px;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 25px;
+    outline: none;
+}
+.input_login:hover{
+	background-color: #4EEE94;
+}
+
+
+
+/*网页底部*/
+.footer_bar{
+    height: 70px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.footer_info{
+	height: 30px;
+	line-height: 30px;
+	margin-top:20px;
+    margin-left: 423px;
+}
+.footer_info a,.footer_info span{
+	float: left;
+	color: #666;
+}
+.footer_info a:hover{
+	color: red;
+}
+.footer_info span{
+	margin:0 15px;
+}
