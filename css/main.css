@@ -227,10 +227,52 @@ body{
 .slide_pic{
 	width: 764px;
 	height: 269px;
-	text-align: center;
 	border-bottom: 1px solid #eee;
 	border-right: 1px solid #eee;
+	margin:0 auto;
+	/* 父元素设置相对定位 */
+	position: relative;
+	overflow: hidden;
 }
+
+.slide_pic #imgList{
+	list-style: none;
+	/* ul的宽度,每张图片的宽度与左右边距之和，
+	不建议写死，建议还是用js写，这样如果增加图片，可以自动调整*/
+	 /*width: 4650px; */
+	position: absolute;
+	left:0;
+}
+.slide_pic #imgList li{
+	float: left;
+	margin-right: 10px;
+	/* background-color: #bfa; */
+}
+.slide_pic #nav_con{
+	position: absolute;
+	bottom: 20px;
+	/* 左偏移建议不要写死,如果增加了a标签,不会显示居中 。还是用js写*/
+	/* left: 200px; */
+}
+.slide_pic #nav_con a{
+	/* 浮动,转为行内块元素 */
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin: 0 10px;
+	background-color: #f00;
+	opacity:0.5;
+	/* 透明度兼容IE */
+	filter:alpha(opacity=50);
+}
+.slide_pic #nav_con a:hover{
+	background-color: #fff;
+}
+
+
+
+
+
 
 
 /*第五行右边广告*/
