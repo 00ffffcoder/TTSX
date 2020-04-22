@@ -5,6 +5,7 @@
 	<title>天天生鲜-注册</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<script type="text/javascript" src="js/register.js"></script>
 </head>
 <body>
 	<!-- 通知 -->
@@ -24,21 +25,21 @@
 					<a href="TTSX-Login.html" target="_blank">立即登录</a>
 				</div>
 
-				<form action="#" class="form_con">
+				<form action="#" class="form_con" id="submit_form">
 					<ul>
 						<li class="input_li">
 							<label for="username">用 户 名：</label>
-							<input type="text" id="username" placeholder="请输入5-20个字符的用户名">
+							<input type="text" id="username" placeholder="请输入6-20个字符的用户名">
 						</li>
 
 						<li class="input_li">
 							<label for="pwd">密  码：</label>
-							<input type="pwd" id="pwd" placeholder="请输入6-20个字符的密码">
+							<input type="password" id="pwd" placeholder="请输入6-20个字符的密码">
 						</li>
 
 						<li class="input_li">
 							<label for="repwd">确认密码：</label>
-							<input type="pwd" id="repwd" placeholder="请确认密码">
+							<input type="password" id="repwd" placeholder="请确认密码">
 						</li>
 
 						<li class="input_li">
@@ -52,7 +53,7 @@
 						<label for="check">同意《天天生鲜用户使用协议》</label>
 					</div>
 
-					<input type="submit" value="注 册" class="register_submit">
+					<input type="submit" value="注 册" class="register_submit" id="sub_btn">
 
 				</form>
 

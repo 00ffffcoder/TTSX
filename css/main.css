@@ -245,7 +245,7 @@ body{
 }
 .slide_pic #imgList li{
 	float: left;
-	margin-right: 10px;
+	/*margin-right: 10px;*/
 	/* background-color: #bfa; */
 }
 .slide_pic #nav_con{

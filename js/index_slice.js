@@ -9,18 +9,18 @@
 		var allAtags = nav_con.getElementsByTagName("a");
 		var index = 0;
 		
-		//默认在第一张图片时，显示a标签是黑色的。这是内联样式，可以覆盖内嵌样式。
+		//默认在第一张图片时，显示a标签是白色的。这是内联样式，可以覆盖内嵌样式。
 		allAtags[index].style.backgroundColor = "#fff";
 		
 		//设置ul 的宽度，由图片多少决定
-		imgList.style.width = 775*imgArr.length + "px";
+		imgList.style.width = 765*imgArr.length + "px";
 		
 		
-		console.log(nav_con.offsetWidth);
+		// console.log(nav_con.offsetWidth);
 		//设置nav_con相对于父级div可以居中显示，由a标签个数多少决定
 		nav_con.style.left = (764 - nav_con.offsetWidth)/2 + "px";
 		
-		//【功能1：手动模式】 点击哪个超链接，就显示哪张图片。同时那个超链接背景色为黑色。
+		//【功能1：手动模式】 点击哪个超链接，就显示哪张图片。同时那个超链接背景色为白色。
 		//为所有超链接先绑定单机响应函数。
 		for (var i=0;i<allAtags.length;i++){
 			// 但对于for循环，单击响应函数都等循环完才开始执行。执行响应函数前先给每个a元素绑定num属性
@@ -36,7 +36,7 @@
 				//被选中的a变黑
 				setAbgcolor();
 				//点击哪个a, 就移动到对应那张图片
-				moveLandR(imgList,"left",-775*index,50,30,function (){
+				moveLandR(imgList,"left",-765*index,50,30,function (){
 					//手动点击切换后，过了一定时间还是可以自动切换
 					autoChange();
 				});
@@ -48,7 +48,7 @@
 		//【功能2：自动模式】开启自动切换图片
 		autoChange();
 		
-		//专门定义一个函数，来设置a 标签的颜色。点击哪个a，它的颜色就变黑
+		//专门定义一个函数，来设置a 标签的颜色。点击哪个a，它的颜色就变白
 		function setAbgcolor(){
 			//判断当前索引是否到最后一张图片
 			if(index >= imgArr.length-1){
@@ -62,7 +62,7 @@
 			for (var i=0;i<allAtags.length;i++){
 				allAtags[i].style.backgroundColor = "";
 			}
-			//唯独被选中的a才变黑
+			//唯独被选中的a才变白
 			allAtags[index].style.backgroundColor = "#fff";
 		}
 		
@@ -73,7 +73,7 @@
 				index++;
 				//到最后一张图片，让index回到0
 				index %= imgArr.length;						
-				moveLandR(imgList,"left",-775*index,50,30,function (){			
+				moveLandR(imgList,"left",-765*index,50,30,function (){			
 					setAbgcolor();
 				});
 			},3000);
